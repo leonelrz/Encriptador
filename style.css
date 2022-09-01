@@ -1,0 +1,155 @@
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    background: linear-gradient(180deg, #fdf38b 0%, #5a9dd8 100%);
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    padding: 1em;
+}
+
+main {
+    display: flex;
+    margin-left: 200px;
+    
+} 
+
+.input-texto{
+    
+    margin: 25px 0;
+    font-size: 25px;
+    color:#000000;
+    height: 400px;
+    width: 577px;
+    border: none;
+    background: none;
+    
+}
+
+.informacion-encriptador{
+    margin: 25px 0 0 25px;
+    font-size: 13px;
+}
+
+.caja-mensaje{
+    width: 1000px;
+    text-align: center;
+}
+
+.encriptar{
+    margin: 20px;
+    padding: 15px;
+    width: 40%;
+    font-size: 18px;
+    color: beige;
+    font-weight: bold;
+    background: #0A3871;
+    border: none;
+    border-radius: 7px;
+    transition: 500ms;
+    cursor: pointer;  
+}
+
+
+.desencriptar{
+    padding: 15px;
+    width: 40%;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 500ms;
+    background: #406e9b; 
+}
+
+.copiar{
+    padding: 15px;
+    width: 40%;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    transition: 500ms;
+    margin: 20px 0 0 75px;
+    
+}
+
+.desencriptar:hover, .encriptar:hover, .copiar:hover{
+    transform: scale(1.1);
+}
+
+.mensaje {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 90px;
+    background-image: url("imagenes/robot-mensaje.png");
+    background-repeat: no-repeat;
+    background-position: 25px;
+    background-size: 350px;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+
+footer{
+    text-align: center;
+    color: beige;
+    padding: 30px;
+}
+
+.aluraLogo{
+    margin: 15px;
+}
+
+@media screen and (max-width:480px){
+    body{
+        width: 99%;
+    }
+
+    main{
+        display: block;
+        margin-left: 7%
+    }
+
+    .principal{
+        width: auto;
+    }
+
+    .input-texto{
+        height: 200px;
+        width: 250px;
+    }
+
+    .mensaje{
+        height: 200px;
+        width: 250px;
+        background-image: url("imagenes/robot.png");
+        margin-left: 10px;
+        background-size: 150px;
+        background-position: 60px;
+    }
+
+    .encriptar,.desencriptar, .copiar{
+        display: block;
+        width: 85%;
+        margin: 15px 0;
+    }
+
+    .caja-mensaje{
+        width: auto;
+        text-align: left;
+    }
+
+    .informacion-encriptador{
+        margin: 10px 0;
+        width: auto;
+        font-size: 13px;
+        text-align: left;
+    }
+}
