@@ -53,6 +53,5 @@ https://leonelrz.github.io/Encriptador/
 
 ------------
 #### Autores 
-  | [ ![WhatsApp Image 2023-06-15 at 2 13 45 PM](https://github.com/leonelrz/Encriptador/assets/112590041/bec0e997-b904-4536-893f-f2df10a75c5f)
- width=115><br><sub>Leonel Reyes </sub>](https://github.com/leonelrz) |
+  | [ ![WhatsApp Image 2023-06-15 at 2 13 45 PM width=115><br><sub>Leonel Reyes </sub>](https://github.com/leonelrz/Encriptador/assets/112590041/bec0e997-b904-4536-893f-f2df10a75c5f)](https://github.com/leonelrz) |
   | :---: |
